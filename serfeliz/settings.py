@@ -122,8 +122,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #Django Log In
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'post_list'
+LOGOUT_REDIRECT_URL = 'post_list'
 
 # Django Password Reset Send Email
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
